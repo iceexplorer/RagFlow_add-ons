@@ -103,7 +103,7 @@ else
 fi
 
 # Ask for username and suggest default path
-read -rp "Enter your Linux username to suggest a backup path (e.g., sysadm): " BACKUP_USER
+read -rp "Enter your Linux username to suggest a backup path: " BACKUP_USER
 DEFAULT_BACKUP_DIR="/home/${BACKUP_USER}/backups/Ragflow"
 
 echo "Suggested backup path: $DEFAULT_BACKUP_DIR"
